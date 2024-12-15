@@ -49,31 +49,23 @@ export default function Home() {
 							position="relative"
 							flex={4} gap="24" marginBottom="104"
 							direction="column">
-							<InlineCode
-								className="shadow-m"
-								style={{
-									width: 'fit-content',
-									padding: 'var(--static-space-8) var(--static-space-16)',
-									backdropFilter: 'blur(var(--static-space-1))'}}>
-								Start by editing <span className="brand-on-background-medium">app/page.tsx</span>
-							</InlineCode>
 							<Heading
 								wrap="balance"
 								variant="display-strong-s">
 								<span className="font-code">
 									<LetterFx
 										trigger="instant">
-										Helping designers code and developers design
+										Welcome to s4ski's personal portofolio !
 									</LetterFx>
 								</span>
 							</Heading>
 							<Button
-								id="readDocs"
-								href="https://once-ui.com/docs"
+								id="Github Page"
+								href="https://github.com/Jacoje77"
 								variant="secondary">
 								<Flex alignItems="center">
-									Read docs
-									<Arrow trigger="#readDocs"/>
+									Personal Github page
+									<Arrow trigger="#Github Page"/>
 								</Flex>
 							</Button>
 						</Flex>
@@ -112,29 +104,6 @@ export default function Home() {
 							</Link>
 						))}
 					</Grid>
-				</Flex>
-			</Flex>
-			<Flex
-				as="footer"
-				position="relative"
-				fillWidth paddingX="l" paddingY="m"
-				justifyContent="space-between">
-				<Text
-					variant="body-default-s" onBackground="neutral-weak">
-					© 2024 Once UI, <Link href="https://github.com/once-ui-system/nextjs-starter?tab=MIT-1-ov-file">MIT License</Link>
-				</Text>
-				<Flex
-					gap="12">
-					<Button
-						href="https://github.com/once-ui-system/nextjs-starter"
-						prefixIcon="github" size="s" variant="tertiary">
-						GitHub
-					</Button>
-					<Button
-						href="https://discord.com/invite/5EyAQ4eNdS"
-						prefixIcon="discord" size="s" variant="tertiary">
-						Discord
-					</Button>
 				</Flex>
 			</Flex>
 		</Flex>
